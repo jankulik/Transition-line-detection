@@ -269,7 +269,7 @@ for i, folder in enumerate(folders):
     dataPoints = np.zeros((480, 640))
 
     # monitoring progress of the program
-    print('---------------------------------------')
+    print('----------------------')
     print('Progress: ' + str(round(i / len(folders) * 100, 2)) + '%')
     print('AoA: ' + folder)
 
